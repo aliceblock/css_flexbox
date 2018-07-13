@@ -4,7 +4,7 @@
       <div class="column is-narrow">
         <span class="is-size-1">Flex Grow</span>
       </div>
-      <div class="column is-narrow">
+      <div class="column">
         <button class="button is-danger" @click="randomOrder()">Random new grow</button>
       </div>
     </div>

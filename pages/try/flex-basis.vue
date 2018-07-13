@@ -4,7 +4,7 @@
       <div class="column is-narrow">
         <span class="is-size-1">Flex Basis</span>
       </div>
-      <div class="column is-narrow">
+      <div class="column">
         <input class="input" type="text" v-model="basis" placeholder="auto or 0 or % value">
       </div>
     </div>

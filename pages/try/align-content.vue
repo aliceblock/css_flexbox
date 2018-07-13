@@ -4,22 +4,12 @@
       <div class="column is-narrow">
         <span class="is-size-1">Align Content</span>
       </div>
-      <div class="column is-narrow">
+      <div class="column">
         <button class="button is-danger" @click="alignContent = 'flex-start'">flex-start</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignContent = 'flex-end'">flex-end</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignContent = 'center'">center</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignContent = 'space-between'">space-between</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignContent = 'space-around'">space-around</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignContent = 'stretch'">stretch</button>
       </div>
     </div>
@@ -46,7 +36,7 @@
         <Tile>17</Tile>
         <Tile>18</Tile>
         <Tile>19</Tile>
-        <Tile>10</Tile>
+        <Tile>20</Tile>
       </div>
     </div>
     <div :style="{display: 'flex', marginTop: '10px', backgroundColor: '#AAA', height: '300px', flexWrap: 'wrap', alignContent: alignContent}">
@@ -69,7 +59,7 @@
       <Tile>17</Tile>
       <Tile>18</Tile>
       <Tile>19</Tile>
-      <Tile>10</Tile>
+      <Tile>20</Tile>
     </div>
   </div>
 </template>

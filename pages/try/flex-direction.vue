@@ -5,16 +5,10 @@
         <div class="is-size-1">Flex Direction</div>
         <div class="is-size-5">{{ 'Main axis: ' + (flexDirection == 'row'? 'Horizontal': 'Vertical') }}</div>
       </div>
-      <div class="column is-narrow">
+      <div class="column">
         <button class="button is-danger" @click="flexDirection = 'row'">row</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="flexDirection = 'row-reverse'">column-reverse</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="flexDirection = 'column'">column</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="flexDirection = 'column-reverse'">column-reverse</button>
       </div>
     </div>

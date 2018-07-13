@@ -4,13 +4,9 @@
       <div class="column is-narrow">
         <span class="is-size-1">Flex Wrap</span>
       </div>
-      <div class="column is-narrow">
+      <div class="column">
         <button class="button is-danger" @click="flexWrap = 'nowrap'">nowrap</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="flexWrap = 'wrap'">wrap</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="flexWrap = 'wrap-reverse'">wrap-reverse</button>
       </div>
     </div>

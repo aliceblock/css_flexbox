@@ -4,28 +4,14 @@
       <div class="column is-narrow">
         <span class="is-size-1">Justify Content</span>
       </div>
-      <div class="column is-narrow">
+      <div class="column">
         <button class="button is-warning" @click="flexDirection = 'row'">row</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-warning" @click="flexDirection = 'column'">column</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="justifyContent = 'flex-start'">flex-start</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="justifyContent = 'flex-end'">flex-end</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="justifyContent = 'center'">center</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="justifyContent = 'space-between'">space-between</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="justifyContent = 'space-around'">space-around</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="justifyContent = 'space-evenly'">space-evenly</button>
       </div>
     </div>

@@ -4,25 +4,13 @@
       <div class="column is-narrow">
         <span class="is-size-1">Align Items</span>
       </div>
-      <div class="column is-narrow">
+      <div class="column">
         <button class="button is-warning" @click="flexDirection = 'row'">row</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-warning" @click="flexDirection = 'column'">column</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignItems = 'flex-start'">flex-start</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignItems = 'flex-end'">flex-end</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignItems = 'center'">center</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignItems = 'baseline'">baseline</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignItems = 'stretch'">stretch</button>
       </div>
     </div>

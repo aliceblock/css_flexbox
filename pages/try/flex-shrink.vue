@@ -5,10 +5,8 @@
         <div class="is-size-1">Flex Shrink</div>
         <div class="is-size-5">Greater number is smaller.</div>
       </div>
-      <div class="column is-narrow">
+      <div class="column">
         <button class="button is-danger" @click="randomOrder()">Random new order</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="setZero()">All zero</button>
       </div>
     </div>

@@ -4,22 +4,12 @@
       <div class="column is-narrow">
         <span class="is-size-1">Align Self</span>
       </div>
-      <div class="column is-narrow">
+      <div class="column">
         <button class="button is-danger" @click="alignSelf = 'auto'">auto</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignSelf = 'flex-start'">flex-start</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignSelf = 'flex-end'">flex-end</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignSelf = 'center'">center</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignSelf = 'baseline'">baseline</button>
-      </div>
-      <div class="column is-narrow">
         <button class="button is-danger" @click="alignSelf = 'stretch'">stretch</button>
       </div>
     </div>

@@ -5,7 +5,7 @@
         <div class="is-size-1">Order</div>
         <div class="is-size-5">Greater number come after each other.</div>
       </div>
-      <div class="column is-narrow">
+      <div class="column">
         <button class="button is-danger" @click="randomOrder()">Random new order</button>
       </div>
     </div>
